@@ -1,0 +1,11 @@
+a=b=0
+s=input()
+for i in s:
+    if i.isupper():
+        a=a+1
+    elif i.islower():
+        b=b+1
+    else:
+        pass
+print("upper",a)
+print("lower",b)
